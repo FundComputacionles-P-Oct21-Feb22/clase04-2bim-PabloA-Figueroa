@@ -3,8 +3,12 @@
 3.      tabla, i[0-n]
 4.      valorLimite, i[0-n]
 5.      mensaje, x(200)[{0-9}, {a-z}]
-6.      tabla <-- 3 
-7.      valorLimite <-- 10 
+6.      tabla i[0,n]
+7.      valorLimite i[0,n]
+7.      Escriba "Ingrese el valor a dar a la tabla"
+8.      lea tabla
+9.      Escriba "Ingrese el valor a dar al limite"
+8.      lea valorLimite
 8.      obtenerTablaMultiplicar(tabla, valorLimite)
 9.      obtenerTablaSuma(tabla, valorLimite)
 10.  fin funcion principal 
